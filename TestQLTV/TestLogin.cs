@@ -114,5 +114,13 @@ namespace TestQLTV
 
             Assert.AreEqual(false, acctual);
         }
+        [TestMethod]
+        public void TestLoginSearchByUser()
+        {
+            string user = "Danh";
+            var actual = AccountDAO.Instance.LoginByUsername(user);
+            Assert.AreEqual(null, actual);
+            
+        }
     }
 }
