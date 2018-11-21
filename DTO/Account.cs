@@ -12,7 +12,7 @@ namespace DemoQuanLyThuVien
         public string DisplayName { get; set; }
         public string PassWord { get; set; }
         public int Type { get; set; }
-
+   
         public Account(string UserName, string DisplayName,int Type, string PassWord = null)
         {
             this.UserName = UserName;
